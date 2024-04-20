@@ -1,0 +1,28 @@
+.body8{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.body8 h3{
+    font-size: 2rem;
+}
+
+.body9{
+    background-color: var(--dark-one);
+    left: 50%;
+	margin:0 -50vw;
+	max-width: 99.2vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+    padding: 2rem 6.4%;
+    overflow-x: hidden;
+}
+.body9 h3{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+.body9 p{
+    font-size: 1.25rem;
+    color: var(--light-one);
+}

@@ -1,0 +1,89 @@
+.FAQContainer .header-title{
+    margin-bottom: 2rem;
+}
+.FAQContainer{
+    margin-bottom: 2rem;
+}
+.accordion{
+    width: 80%;
+    padding: 5px 20px 5px 5px;
+    border: 2px solid var(--dark-two);
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.accordion h3{
+    margin: 0;
+    padding-top: 3px;
+    font-size: 1.2rem;
+    color: var(--dark-one);
+}
+
+.faqIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:10px ;
+    padding: 0.3rem;
+    font-size: 2rem;
+    background-color: var(--dark-one);
+    color: var(--light-one);
+    border-radius: 50%;
+    transition: all 0.3s ease-in;
+}
+
+.panel{
+    padding: 0 18px;
+    border-left: 1px solid var(--dark-two);
+    margin-left: 2rem;
+    width: 75%;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.3s ease-in;
+}
+
+.activeFAQ .faqIcon{
+    background-color:var(--light-two);
+    color: var(--dark-two);
+    rotate: 180deg;
+}
+.activeFAQ{
+    background-color: var(--dark-one);
+    color: var(--light-two);
+    border: 2px solid var(--dark-one);
+}
+.activeFAQ h3{
+    color: var(--light-two);
+}
+
+@media (max-width: 850px) {
+    .FAQContainer .header-title{
+        font-size: 1.3rem;
+    }
+    .accordion{
+        width: 100%;
+    }
+    .accordion h3{
+        font-size: 1rem;
+    }
+    .panel{
+        font-size: 0.9rem;
+        width: 85%;
+    }
+}
+
+@media (max-width: 290px) {
+    .FAQContainer .header-title{
+        font-size: 1rem;
+    }
+    .accordion h3{
+        font-size: 0.8rem;
+    }
+    .panel{
+        font-size: 0.7rem;
+    }
+}

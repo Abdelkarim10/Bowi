@@ -1,0 +1,51 @@
+.partnerTitle{
+    margin-top: 1rem;
+}
+.pricingCards{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin-top: 1rem;
+}
+.pricingCard{
+    margin:1rem 0;
+    width: 320px;
+}
+.pricingCard h3{
+    font-size: 2rem;
+}
+.pricingCard button{
+    border: none;
+    border-radius: 2rem;
+}
+.pricingCard a{
+    border: none;
+    border-radius: 0.2rem;
+}
+.text1 b{
+    font-size: 1.5rem;
+}
+#price{
+    margin: 2.5rem 0;
+}
+.pricingCardsMargin{
+    margin: 0 220px 0 0;
+}
+
+
+@media (max-width: 850px) {
+    .pricingCardsMargin{
+        margin:  0;
+    }
+    .pricingCards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .pricingCard{
+        margin-bottom: 2rem;
+        width: 220px;
+    }
+    .text1 b{
+        font-size: 1rem;
+    }
+}

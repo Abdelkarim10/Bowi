@@ -1,0 +1,15 @@
+.termsContainer,.privacyContainer{
+    margin: 2rem 0;
+}
+.termsContainer h1,.privacyContainer h1{
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 850px) {
+    .termsContainer,.privacyContainer{
+        margin: 1rem 0;
+    }
+    .termsContainer h1,.privacyContainer h1{
+        margin-bottom: 0.5rem;
+    }
+}

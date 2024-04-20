@@ -1,0 +1,118 @@
+/*Become Partner*/
+.bapCol{
+    display: flex;
+    justify-content: center;
+}
+.infoFrom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    width: 30rem;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px #cfcfcf;
+    box-shadow: 0 0 10px #cfcfcf;
+}
+.infoFrom form{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.infoFrom h3{
+    color: var(--dark-one);
+    margin-bottom:0.4rem ;
+}
+.infoFrom p{
+    margin: 0.3rem;
+    font-size: 0.75rem;
+}
+.infoFrom p a{
+    color: var(--main-color);
+    transition: 0.3s;
+}
+.infoFrom p a:hover{
+    color: var(--main-hover);
+}
+.textInput ,.selectInput{
+    width: 26.7rem;
+    padding: 0.5rem 0.4rem 0.5rem 0.4rem ;
+    margin: 0.2rem;
+    background-color: var(--dark-four);
+    font-size: medium;
+    border: none;
+}
+.doubleInput{
+    display: flex;
+    flex-direction: row;
+}
+.doubleInput input{
+    width: 13.25rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem ;
+    margin: 0.2rem 0 0.2rem 0.2rem;
+    background-color:  var(--dark-four);
+    font-size: medium;
+    border: none;
+}
+.doubleInput select{
+    width: 13.25rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.1rem ;
+    margin: 0.2rem 0 0.2rem 0.2rem;
+    background-color:  var(--dark-four);
+    font-size: medium;
+    border: none;
+}
+.phoneInput{
+    display: flex;
+    flex-direction: row;
+}
+.phoneInputCode{
+    width: 7.5rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem ;
+    margin: 0.2rem 0 0.2rem 0.2rem;
+    background-color:  var(--dark-four);
+    font-size: medium;
+    border: none;
+}
+.phoneInputNumber{
+    width: 19rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem ;
+    margin: 0.2rem 0 0.2rem 0.2rem;
+    background-color:  var(--dark-four);
+    font-size: medium;
+    border: none;
+}
+.textInput::placeholder ,.doubleInput input::placeholder,.selectInput ,.phoneInput input::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--dark-one);
+    opacity: 1; /* Firefox */
+}
+.subBtn{
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.6rem ;
+    font-size: medium;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--dark-one);
+    color: var(--light-two);
+    transition: 0.3s;
+}
+.subBtn:hover{
+    background-color: var(--main-color);
+}
+.errorMsg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: red;
+    font-size: 0.7rem;
+    margin: 0 0.2rem;
+}
+.doneMsg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(2, 196, 2);
+    font-size: 0.7rem;
+    margin: 0.5rem 0.3rem 0 0.3rem;
+}
+/*End Become Partner*/

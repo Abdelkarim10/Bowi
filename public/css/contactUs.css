@@ -1,0 +1,83 @@
+.ContactUsFrom{
+    display: flex;
+    justify-content: center;
+}
+.ContactUsFrom form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    width: fit-content;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px #cfcfcf;
+    box-shadow: 0 0 10px #cfcfcf;
+}
+.ContactUsFrom form h3{
+ margin-bottom: 0.5rem;
+}
+.ContactUsFrom form textarea {
+    height: 170px;
+    resize: none;
+}
+.ContactUsFrom form .textInput{
+    width: 30rem;
+}
+.contactDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.phoneDiv , .emailDiv , .addressDiv{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactLogo{
+    background-color: var(--dark-two);
+    color: var(--light-one);
+    height: 5rem;
+    width: 5rem;
+    padding:1.5rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.contactTitle{
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+@media (max-width: 850px) {
+    .contactDiv{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .phoneDiv , .emailDiv , .addressDiv{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .contactLogo{
+        height: 3.5rem;
+        width: 3.5rem;
+        padding:1rem;
+        font-size: 1.5rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+    }
+}
+@media (max-width: 500px) {
+    .ContactUsFrom form .textInput{
+        width: 18.3rem;
+    }
+    .ContactUsFrom form {
+        margin-top: 1rem;
+        padding: 0 0.5rem;
+        box-shadow: none;
+    }
+}
